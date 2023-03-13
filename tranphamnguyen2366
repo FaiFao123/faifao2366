@@ -17,26 +17,10 @@ local gui = loadstring(game:HttpGet("https://gitlab.com/0x45.xyz/droplib/-/raw/m
 local lpg = gui:CreateCategory("Fai Fao Hub")
 
 ----MAIN------
-lpg:CreateButton("(1) Fai Fao All Map",function() 
-getgenv().Key = "MARU-GDCTU-H1XGL-1S5X-0EVM-VCI2"
-getgenv().id = "1054379260602765363"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))() end)
+lpg:CreateButton("(1) Unique Crack By FaiFao",function() 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AkiraNus/UniquehubKak/main/FreeCr.Xenonhub"))( end)
 
-lpg:CreateButton("(2) Fai Fao Kaitun",function() 
-getgenv().Key = "MARU-GDCTU-H1XGL-1S5X-0EVM-VCI2"
-getgenv().id = "1054379260602765363"
-getgenv().Script_Mode = "Kaitun_Script"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
- end)
-
-lpg:CreateButton("(3)  Fai Fao PvP",function() 
-getgenv().Key = "MARU-GDCTU-H1XGL-1S5X-0EVM-VCI2"
-getgenv().id = "1054379260602765363"
-_G.Script_Mode = "PVP"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruBitkub/main/Mobile.lua"))()
- end)
-
-lpg:CreateButton("(4) Bấm Vô Thử Đi",function() --one src for skid 
+lpg:CreateButton("(2) Bấm Vô Thử Đi",function() --one src for skid 
 xwd = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
 Gamename = xwd.Name
 local games = {
